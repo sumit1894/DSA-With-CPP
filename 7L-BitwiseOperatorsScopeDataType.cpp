@@ -119,14 +119,12 @@ int main()
 
 
 
-
     cout<<"HomeWork"<<endl;
     cout<<endl;
 
 
     // Figure out how to find if the number is the power of 2  without any loops.
     //WAF to  reverse an integer n.
-
 
     cout << "---------------------------------------------------------------------------------";
     cout << endl;
