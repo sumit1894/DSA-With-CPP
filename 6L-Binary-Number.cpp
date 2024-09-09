@@ -27,12 +27,42 @@ int ans = 0,pow = 1;
 
 }
 
+string convertTwoComplement(string binary){
+
+    for (int i = 0; i < binary.length(); i++)
+    {
+        binary[i] = (binary[i] == '0') ? '1' : '0';
+    }
+
+    int n = binary.length();
+    bool carry = true;
+
+    for (int i =n-1; i >=0; i--)
+    {
+        if(binary[i]=='1' && carry){
+            binary[i] = '0';
+        }
+        else if(binary[i]=='0' && carry){
+            binary[i]='1';
+            carry=false;
+        }
+    }
+    
+    if(carry){
+        binary='1'+binary;
+    }
+    return binary;
+}
+
+
 int main()
 {
 
     DecimalBinary(50);
 
     BinarDecimal(110010); 
+    
+    cout<<(convertTwoComplement("1011"));
 
     return 0;
 }
