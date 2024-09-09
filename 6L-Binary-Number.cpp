@@ -56,6 +56,7 @@ string convertTwoComplement(string binary){
 
 int main()
 {
+    
     DecimalBinary(50);
 
     BinarDecimal(110010); 
