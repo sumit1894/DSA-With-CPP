@@ -26,8 +26,24 @@ int bitwiseRightShift(int a, int b)
     return a >> b;
 }
 
+void isPowerOfTwo(int n){
+    if(n>0 && (n&(n-1))==0){
+        cout<<"is Power of 2"<<endl;
+    }
+    else{
+        cout<<"is not a power of 2"<<endl;
+    }
+}
 
-
+void ReverseIntiger(int n){
+    int reverse=0;
+    while(n>0){
+        int lastdigit=n%10;
+        reverse=reverse*10+lastdigit;
+        n=n/10;
+    }
+    cout<<"Revrse number is "<<reverse<<endl;
+}
 
 int main()
 {
@@ -130,6 +146,13 @@ int main()
     cout << endl;
 
 
+    isPowerOfTwo(16);
+
+
+    cout << "---------------------------------------------------------------------------------";
+    cout << endl;
     
+    ReverseIntiger(1234);
+
     return 0;
 }
