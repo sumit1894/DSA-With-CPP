@@ -234,6 +234,28 @@ cout<<endl;
 
 
 cout << endl<< "------------------------HomeWork4-----------------------" << endl<<endl;
+    cout<<"Find the unique element in an array"<<endl<<endl;
+    
+
+    int arrunique[] = {1, 2, 3, 4, 99, 2,8,4, 3};
+    for (int i = 0; i < 9; i++)
+    {
+        int count = 0;
+        for (int j = 0; j < 9; j++)
+        {
+            if (arrunique[i] == arrunique[j] && i != j)
+            {
+                count = 1;
+                break;
+            }
+        }
+        if (count == 0)
+        {
+            cout<<"the unique element is:"<<arrunique[i]<<endl;
+        }
+    }
+    cout<<endl;
+
 
 
 
