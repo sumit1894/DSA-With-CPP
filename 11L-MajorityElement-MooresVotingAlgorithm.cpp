@@ -122,7 +122,7 @@ int MajorityElementMoore( vector<int>MajorityElementArr){
 int main(){
 cout<<endl;
 
-cout<<"------------------------PairSum------------------------"<<endl<<endl;
+cout<<"------------------------PairSum------------------------125"<<endl<<endl;
 
 cout<<"Return pair in shorted array with the targete sum"<<endl;
 cout<<"Time Complexity is O(n^2) and Space Complexity is O(1)"<<endl;
@@ -136,7 +136,7 @@ cout<<"Pair with sum "<<target<<" is: "<<ans[0]<<" and "<<ans[1]<<endl<<endl;
 
 
 
-cout<<"------------------------ Brute-Approach------------------------"<<endl<<endl;
+cout<<"------------------------ Brute-Approach------------------------139"<<endl<<endl;
 cout<<"time complexity is O(n) and space complexity is O(1)"<<endl;
 
 int BruteTarget=26;
@@ -147,7 +147,7 @@ cout<<bruteAns[0]<<" and "<<bruteAns[1]<<endl<<endl;
 
 
 
-cout<<"------------------------MajorityElemet------------------------"<<endl;
+cout<<"------------------------MajorityElemet------------------------150"<<endl;
 cout<<"------------------------ Brute-Approach------------------------"<<endl<<endl;
 cout<<"Time Complexity is O(n^2) and Space Complexity is O(1)"<<endl;
 
@@ -160,7 +160,7 @@ cout<<"Majority Element is: "<<majorityElement1<<endl<<endl;
 
 
 
-cout<<"------------------------ Better-Approach------------------------"<<endl<<endl;
+cout<<"------------------------ Better-Approach----------------------163"<<endl<<endl;
 cout<<"Time Complexity is O(nlogn)for short and 0(n) for loop and Space Complexity is O(1)"<<endl;
 
 vector<int> majorityElementArr2={1,2,2,1,1};
@@ -171,7 +171,7 @@ cout<<"Majority Element is: "<<majorityElement2<<endl<<endl;
 
 
 
-cout<<"------------------------ Moore's Voting------------------------"<<endl<<endl;
+cout<<"------------------------ Moore's Voting-----------------------174"<<endl<<endl;
 cout<<"Time Complexity is O(n) and Space Complexity is O(1)"<<endl;
 
 vector<int> majorityElementArr3={1,2,2,1,1};
