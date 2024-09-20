@@ -179,8 +179,5 @@ int majorityElement3=MajorityElementMoore(majorityElementArr3);
 cout<<"Majority Element is: "<<majorityElement3<<endl<<endl;
 
 
-
-
-
     return 0;
 }
