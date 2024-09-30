@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int Binary_Search(vector<int> arr, int target)
 {
     int n = arr.size();
@@ -28,7 +27,7 @@ int Binary_Search(vector<int> arr, int target)
     return -1;
 }
 
-// BS-Recursion
+// BS-Recursion 
 
 int Binary_Search_Recursion(vector<int> arr3, int target3, int start, int end)
 {
@@ -60,7 +59,7 @@ int main()
 
 
     cout<<"binary_search() function is used to search an element in a sorted array."<<endl<<endl;
-    
+
     // It returns true if the element is found, else false.
 
 
@@ -70,7 +69,7 @@ int main()
     vector<int> arr1 = {-1, 0, 3, 5, 9, 12}; // odd array 0+(0+5)/2=2
     int target1 = 9;
 
-    int result = Binary_Search(arr1, target1);
+    int result = Binary_Search(arr1, target1); // 
     cout << "Element found at index: " << result << endl<< endl;
 
 
